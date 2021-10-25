@@ -166,7 +166,7 @@
 // var y1 = 12;
 // var y2 = 18;
 
-// console.log((x2 - x1) ** 2;+ ( y2 - y1) ** 2) ** 0.5
+// console.log((x2 - x1) ** 2+ ( y2 - y1) ** 2) ** 0.5
 
 
 // /////////   BEGIN 21 //////////////////
@@ -203,3 +203,9 @@
 // console.log(a, b, c)
 
 //////////////////////////////////////
+// 2 ta variable berilsin bittasi number bittasi string bolsin. String bilan number qoshilsin va Uning length si aniqlansin
+
+// var a = 10;
+// var b = '10';
+// var c = a + +b
+// console.log(c.toString().length);
