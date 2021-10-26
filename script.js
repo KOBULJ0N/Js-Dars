@@ -43,13 +43,21 @@
 // function floor(a) {
 //     return parseInt(a);
 // }
-// console.log(floor(1.9))
+// console.log(floor(8.9))
+
+// Function for Method floor2 
+
+// function floor(a) {
+//   return (a - 0.5).toFixed(0);
+// }
+// console.log(floor(6.001));
+
 
 
 // Function for Method ceil
 
 // function ceil(a) {
-//     return (a + 0.4).toFixed(0);
+//     return (a + 0.5).toFixed(0);
 // }
-// console.log(ceil(5.8));
+// console.log(ceil(1.001));
 
