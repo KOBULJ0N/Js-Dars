@@ -18,10 +18,10 @@
 // Function for Method cbrt
 
 // function cbrt(a) {
-//   return (a ** (1/4));
+//   return (a ** (1/3));
 // }
 
-//  console.log(cbrt(81));
+//  console.log(cbrt(27));
 
 // Function for Method abs
 
