@@ -209,3 +209,6 @@
 // var b = '10';
 // var c = a + +b
 // console.log(c.toString().length);
+
+var nom = 'laptop laptop laptop';
+console.log(nom.search('op'))
