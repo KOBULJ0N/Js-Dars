@@ -64,6 +64,6 @@
 // }
 // console.log(ceil(1.001));
 
-var a = 'Welcom WebBrain';
-a =a.repeat(5);
-console.log(a);
+// var a = 'Welcom WebBrain ';
+// a =a.repeat(5).match(/a/g).length;
+// console.log(a);
