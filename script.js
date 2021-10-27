@@ -26,9 +26,12 @@
 // Function for Method abs
 
 // function abs(a) {
-// return (a** 2) ** 0.5 
+//     a >= 0 && console.log(a);
+    
+//     a < 0 && console.log(-a);
 // }
-// console.log(abs(-12.5));
+
+// abs(-123)
 
 // Function for Method round
 
@@ -61,3 +64,6 @@
 // }
 // console.log(ceil(1.001));
 
+var a = 'Welcom WebBrain';
+a =a.repeat(5);
+console.log(a);
