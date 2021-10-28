@@ -67,3 +67,18 @@
 // var a = 'Welcom WebBrain ';
 // a =a.repeat(5).match(/a/g).length;
 // console.log(a);
+
+
+// for (let i = 10; i >= 0; i --) {
+//     console.log(i)
+// }
+
+// for (let i = 1; i <= 100; i = i + 2) {
+//     console.log(i);
+// }
+
+// for (let i = 0; i <= 100; i = i + 2) {
+//   console.log(i);
+// }
+
+
