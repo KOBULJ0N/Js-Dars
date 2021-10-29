@@ -84,4 +84,35 @@
 //   console.log(i);
 // }
 
+// primeNumber(1, 100);
+// function primeNumber(from, to) {
+//   var flag = false;
+//   for (i = from; i <= to; i++) {
+//     for (j = 2; j < i; j++) {
+//       if (i % j == 0) {
+//         flag = false;
+//         break;
+//       } else {
+//         flag = true;
+//       }
+//     }
+//     if (flag) {
+//       console.log(i);
+//     }
+//   }
+// }
+
+/******************Task 1************************ */
+
+var str = 'webBrain Academy';
+str = str.toLowerCase();
+str = str.split(' ').join('');
+str = str.repeat(5);
+console.log(str);
+
+
+
+
+
+
 
