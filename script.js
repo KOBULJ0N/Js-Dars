@@ -1,4 +1,4 @@
-/*************** Task №1 ************** */
+  /* ************** Task №1 ************** */
 // Function for Method pow
 
 // function pow(a, b) {
@@ -84,35 +84,77 @@
 //   console.log(i);
 // }
 
-// primeNumber(1, 100);
-// function primeNumber(from, to) {
-//   var flag = false;
-//   for (i = from; i <= to; i++) {
-//     for (j = 2; j < i; j++) {
-//       if (i % j == 0) {
-//         flag = false;
-//         break;
-//       } else {
-//         flag = true;
-//       }
-//     }
-//     if (flag) {
-//       console.log(i);
-//     }
-//   }
-// }
 
-/******************Task 1************************ */
+// /******************Task 1************************ */
 
-var str = 'webBrain Academy';
-str = str.toLowerCase();
-str = str.split(' ').join('');
-str = str.repeat(5);
-console.log(str);
+// var str = 'webBrain Academy';
+// str = str.toLowerCase();
+// str = str.split(' ').join('');
+// str = str.repeat(5);
+// console.log(str);
+
+
+
+// /*   task */
+// let n = 748394736384937483;
+// let str = n.toString();
+// for (i = 0; i  n i ++; ) {
 
 
 
 
+// PRIME NUMBERS   
+/* 
 
+primeNumber(1, 100);
+function primeNumber(from, to) {
+  var qiymat = false;
+  for (i = from; i <= to; i++) {
+    for (j = 2; j < i; j++) {
+      if (i % j == 0) {
+        qiymat = false;
+        break;
+      } else {
+        qiymat = true;
+      }
+    }
+    if (qiymat) {
+      console.log(i);
+    }
+  }
+} 
+*/
+// program to check if a number is prime or not
 
+// take input from the user
+const number = parseInt(prompt("Enter a positive number: "));
+let isPrime = true;
+
+// check if number is equal to 1
+if (number === 1) {
+    console.log("1 is neither prime nor composite number.");
+}
+
+// check if number is greater than 1
+else if (number > 1) {
+
+    // looping through 2 to number-1
+    for (let i = 2; i < number; i++) {
+        if (number % i == 0) {
+            isPrime = false;
+            break;
+        }
+    }
+
+    if (isPrime) {
+        console.log(`${number} is a prime number`);
+    } else {
+        console.log(`${number} is a not prime number`);
+    }
+}
+
+// check if number is less than 1
+else {
+    console.log("The number is not a prime number.");
+}
 
