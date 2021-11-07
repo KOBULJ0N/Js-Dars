@@ -32,48 +32,78 @@
 /* ****************************** TASK №4 ************************************ */
 // toq index ga just indexlarni qoshish //
 
-number = [19, 4, 8, 3, 'apple', 9, 10, 5, 7];
+// number = [19, 4, 8, 3, 'apple', 9, 10, 5, 7];
 
-even = 0;
-odd = 0;
-for (i = 0; i < number.length; i += 2) {
-      if (typeof number[i] === 'number') {
-         even += number[i];
-     } else continue;
-  
-}
-for (i = 1; i < number.length; i += 2) {
-    if (typeof number[i] === 'number') {
-       odd += number[i];
-  }else continue
-   
-}
+// even = 0;
+// odd = 0;
+// for (i = 0; i < number.length; i += 2) {
+//       if (typeof number[i] === 'number') {
+//          even += number[i];
+//      } else continue;
 
-console.log(even)
-console.log(odd)
+// }
+// for (i = 1; i < number.length; i += 2) {
+//     if (typeof number[i] === 'number') {
+//        odd += number[i];
+//   }else continue
 
-/* ****************************** TASK №5 ************************************ */
-// Reversee //
-
-// var number = [1, 2,  4, 5, 6 ];
-// for (i = number.length -1; i > 0; i--) {
-//     console.log(number[i]);
 // }
 
+// console.log(even)
+// console.log(odd)
+
+/* ****************************** TASK №5 ************************************ */
+// Reversee //  1-variant  ////////////////////////////
+
+// ar = [1, 3, 4, 5, 6,];
+// newAr = [];
+
+// ar.map((value) => (newAr.unshift(value)))
+// console.log(newAr) 
+ 
+// Reversee //  1-variant //////////////////////////////
+
+// var number = [1, 2, 4, 5, 6];
+
+// for (i = number.length - 1 ; i >=0; i--) {
+// console.log(number[i])
+// }
+
+// Reversee //  1-variant /////////////////////////
+
+// var number = [1, 2, 4, 5, 6, 5, 9];
+// let newAr = [];
+// for (i = number.length - 1; i >= 0; i--) {
+//   newAr[number.length - i -1] = number[i]
+// }
+
+// console.log(newAr)
 /* ****************************** TASK №6 ************************************ */
-//// Eng kichigini kattasi ////////// 
+//// Eng kichigini kattasi //////////
 
 // number = [19, 4, 8, 3, 9, 10, 5, 7];
-// num = number.sort((a, b) => a - b);
+// // num = number.sort((a, b) => b - a);
+//  num = number.sort((a, b) => a - b);
 
 // console.log(num[num.length - 2]);
 
-
-//// Eng kichigini kattasi ////////// 
+// // Eng kichigini kattasi //////////
 
 // number = [19, 4, 8, 3, 9, 10, 5, 7];
 // num = number.sort((a, b) => a - b);
 
 //  console.log(num[1]);
 
+///////////////////////////////////////////////////////////////////////
+
+// function lastElement(arr) {
+//     if (arr.length > 0) {
+//         return arr[arr.length - 1]
+//     } else {
+//         return null
+//     }
+// }
+// console.log(lastElement([7, 5, 6]));
+
+////////////////////////////////////////////////////////////
 
