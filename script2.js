@@ -1,11 +1,11 @@
 // Write a function that inserts a white space between every instance of a lower character followed immediately by an upper character.
 // Examples :
 /*     task №4    */
-let CamelCase = 'myNameIsQobiljon';
+// let CamelCase = 'myNameIsQobiljon';
 
-let string = CamelCase.split(/(?=[A-Z])/).join(' ');
+// let string = CamelCase.split(/(?=[A-Z])/).join(' ');
 
-console.log(string);
+// console.log(string);
 
 
 

@@ -1,4 +1,4 @@
-// /*              Task 1                       */
+/*              Task 1                       */
 
 // ar = [
 //   {
@@ -25,42 +25,14 @@
 //   },
 // ];
 
-// const onDelete = (id) => {
-//     if (ar[id.id === 1]) {
-//         console.log(
-//             ar[1], ar[2])
-//     }
-// };
-// onDelete()
+// const onDelete = (id) => ar.filter((value) => value.id !== id)
+// console.log(onDelete(1));
 
-// const onSort = (value, type) => {
+//  const onSort = () => ar.sort((a, b) => (a.year - b.year));
+//  console.log(onSort());
 
-// }
 
-// hen = {
-//     name: 'Helen',
-//     eggCount: 0 ,
-//     layAnnEgg: function layAnnEgg() {
-//         this.eggCount++
-//         return "EGG"
-//     }
 
-// }
-// console.log(hen.layAnnEgg());
-// console.log(hen.layAnnEgg());
-// console.log(hen.eggCount);
-
-// const myObject = {
-//   name: 'John',
-//   age: 30,
-//   cars: [
-//     { name: 'Ford', models: ['Fiesta', 'Focus', 'Mustang'] },
-//     { name: 'BMW', models: ['320', 'X3', 'X5'] },
-//     { name: 'Fiat', models: ['500', 'Panda'] },
-//   ],
-// };
-
-// console.log(myObject.cars[0].models[2]);
 
 /* 1. Object kalitlari va qiymatlarini tengligini tekshirish */
 
@@ -98,20 +70,20 @@
 
 // 3. Object qiymatlari va kalitlari bir xillari borligini tekshirish
 
-const data = { b: 2,  a: 1, };
-const data2 = {b: 2,  c: 1,  };
-const data3 = { c: 3, b: 5 };
+// const data = { b: 2,  a: 1, };
+// const data2 = {b: 2,  c: 1,  };
+// const data3 = { c: 3, b: 5 };
 
-const checkSame = (value1, value2) => {
-  if(
-    Object.values(value1).toString() === Object.values(value2).toString() ||
-    Object.keys(value1).toString() === Object.keys(value2).toString()
-  ) {
-    return true;
-  } else {
-    return false;
-  }
-};
+// const checkSame = (value1, value2) => {
+//   if(
+//     Object.values(value1).toString() === Object.values(value2).toString() ||
+//     Object.keys(value1).toString() === Object.keys(value2).toString()
+//   ) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// };
 
-console.log(checkSame(data, data2));
-console.log(checkSame(data2, data3));
+// console.log(checkSame(data, data2));
+// console.log(checkSame(data2, data3));
