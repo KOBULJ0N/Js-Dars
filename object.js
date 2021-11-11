@@ -31,9 +31,6 @@
 //  const onSort = () => ar.sort((a, b) => (a.year - b.year));
 //  console.log(onSort());
 
-
-
-
 /* 1. Object kalitlari va qiymatlarini tengligini tekshirish */
 
 // const data = { a: 1, b: 1 };
@@ -87,3 +84,45 @@
 
 // console.log(checkSame(data, data2));
 // console.log(checkSame(data2, data3));
+
+// const Karra = (a) => {
+//     return (b) => {
+//       console.log(`${a} x ${b} = ${a * b}`);
+//   };
+// };
+
+// for (i = 1; i <= 10; i++) {
+//     for (j = 1; j <= 10; j++) {
+//         console.log(`${i} x ${j} = ${i * j}`);
+//         }
+//     console.log('-------------');
+// }
+
+// var ar = [1, 2, 7, 3, 5, 4, 8];
+
+// // var SortedAr = ar.sort();
+
+// // var b = SortedAr.splice(SortedAr.length - 2, 2);
+
+// // ar.push(b[1] - b[0]);
+
+// console.log(ar);
+
+var ar = [1, 2, 8, 3, 5, 5, 8];
+
+var i = 0;
+var sorted = ar.sort();
+while (ar.length > i) {
+    console.log(ar);
+    var spliced = sorted.splice(sorted.length - 2, 2);
+    if (spliced[1] - spliced[0] !== 0) {
+        ar.push(spliced[1] - spliced[0]);
+        console.log(spliced);
+    }
+    sorted = ar.sort();
+    i++;
+}
+
+if (ar[0] - ar[1] === 0) ar = [];
+console.log(ar);
+
