@@ -43,3 +43,15 @@
 //   console.log('false');
 // }
 
+
+
+// Create a function that takes an array and a string as arguments and return the index of the string.
+
+
+// function findIndex(lst, str) {
+//   for (let i = 0; i < lst.length; i++) {
+//     if (lst[i] === str) {
+//       return i;
+//     }
+//   }
+// }

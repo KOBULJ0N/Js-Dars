@@ -74,4 +74,38 @@
 //     }
 // }
 
-console.log(Number(true),Number(false),Number(false));
+// console.log(Number(true),Number(false),Number(false));
+
+
+
+
+
+// Create a function that takes the age in years and returns the age in days.
+
+// Examples
+// calcAge(65) ➞ 23725
+
+// calcAge(0) ➞ 0
+
+// calcAge(20) ➞ 7300
+// Notes
+
+// function calcAge(age) {
+//   return age * 365;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
