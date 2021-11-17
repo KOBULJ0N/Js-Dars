@@ -96,11 +96,17 @@
 
 
 
+// Create a function that takes length and width and finds the perimeter of a rectangle.
+
+// Examples
+// findPerimeter(6, 7) ➞ 26
 
 
+findPerimeter = (a, b) => {
+    return a + b + (a + b)
+}
 
-
-
+console.log(findPerimeter(10, 20));
 
 
 
