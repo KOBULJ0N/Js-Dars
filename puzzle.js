@@ -131,4 +131,15 @@ lessThan100(83, 34) ➞ false
 
 
 
+/* Create a function that takes voltage and current and returns the calculated power.
 
+Examples
+circuitPower(230, 10) ➞ 2300
+
+circuitPower(110, 3) ➞ 330
+*/
+
+circuitPower = (a, b) => {
+    return a * b
+}
+console.log(circuitPower(10, 20));
